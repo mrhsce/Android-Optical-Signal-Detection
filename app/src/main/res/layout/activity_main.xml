@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mrhs.opencvtest.MainActivity"
+    android:id="@+id/main">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txtFps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HI"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:gravity="end"
+        />
+
+</android.support.constraint.ConstraintLayout>
